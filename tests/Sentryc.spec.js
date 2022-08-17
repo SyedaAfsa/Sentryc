@@ -60,9 +60,7 @@ const password = 'testing123';
 
   test.describe('Test Reset Password', () => {
     test.beforeEach(async ({ }) => {
-      const browser = await chromium.launch({
-        headless: false
-      });
+      const browser = await chromium.launch({ });
       const context = await browser.newContext();
       // Open new page
     });
