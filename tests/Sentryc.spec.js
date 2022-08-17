@@ -7,9 +7,7 @@ const email = 'test00@test.com';
 const password = 'testing123';
   test.describe('Test Login', (page) => {
     test.beforeEach(async ({}) => {
-      const browser = await chromium.launch({
-        headless: false
-      });
+      const browser = await chromium.launch({ });
     });
     test('should verify if user is able to login to the site', async ({ page, baseURL }) => {    
       const login = new LoginPage(page);

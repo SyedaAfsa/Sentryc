@@ -38,7 +38,7 @@ const config: PlaywrightTestConfig = {
     actionTimeout: 0,
     /* Base URL to use in actions like `await page.goto('/')`. */
     baseURL: 'https://d1g5e94sevp1ds.cloudfront.net/',
-    headless: false,
+    headless: true,
     screenshot: "on",
     video: "on",
 
