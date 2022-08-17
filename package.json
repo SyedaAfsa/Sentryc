@@ -1,0 +1,21 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.5.1",
+    "@playwright/test": "^1.25.0",
+    "cucumber-html-reporter": "^5.5.0",
+    "mochawesome": "^7.1.3"
+  },
+  "dependencies": {
+    "playwright": "^1.25.0"
+  }
+}
